@@ -115,7 +115,7 @@ local values = function (hash)
 end
 
 local version = function ()
-  return "2.0.0"
+  return "2.1.0"
 end
 
 local author = function ()

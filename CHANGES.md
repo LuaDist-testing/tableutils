@@ -28,6 +28,10 @@
 
 Would you rather view the [documentation][d]?
 
+## *2.1.0-1* (July 21, 2016)
+
++ Update to test against Lua 5.3.3
+
 [d]: /README.md
 ---
 

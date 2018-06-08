@@ -193,7 +193,7 @@ To access these methods, use `require 'hashutils'`.
 
 The module provides four informational functions that return strings. Both sub-modules export the same four functions.
 
-+ `version() -- 2.0.0`
++ `version() -- 2.1.0`
 
 + `author() -- Peter Aronoff`
 
