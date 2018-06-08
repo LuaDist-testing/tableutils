@@ -1,4 +1,4 @@
-# tableutils [![Build Status](https://drone.io/bitbucket.org/telemachus/tableutils/status.png)](https://drone.io/bitbucket.org/telemachus/tableutils/latest) [![codecov.io](http://codecov.io/bitbucket/telemachus/tableutils/coverage.svg?branch=master)](http://codecov.io/bitbucket/telemachus/tableutils?branch=master)
+# tableutils [![Build Status](https://travis-ci.org/telemachus/tableutils.svg?branch=master)](https://travis-ci.org/telemachus/tableutils) [![codecov](https://codecov.io/gh/telemachus/tableutils/branch/master/graph/badge.svg)](https://codecov.io/gh/telemachus/tableutils)
 
 Convenience methods for processing and testing tables. One set of utility
 methods for list-like tables and another for hash-like tables.
@@ -193,11 +193,11 @@ To access these methods, use `require 'hashutils'`.
 
 The module provides four informational functions that return strings. Both sub-modules export the same four functions.
 
-+ `version() -- 2.1.0`
++ `version() -- 2.2.0`
 
 + `author() -- Peter Aronoff`
 
-+ `url() -- https://bitbucket.org/telemachus/tapered`
++ `url() -- https://github.com/telemachus/tableutils`
 
 + `license() -- BSD 3-Clause`
 
@@ -211,7 +211,7 @@ and a more recent one is [JT Archie's underscore-lua][jtu]. Irven's version
 hasn't been updated in six years, and it was never uploaded to LuaRocks.
 Archie's was uploaded to LuaRocks, but it is explicitly deprecated in favor of
 [Moses][m]. In any case, I was only aware of Irven's version when writing
-tableutils. I only discovered Archie's version much later.) I also took some
+tableutils. I discovered Archie's version much later.) I also took some
 ideas from Perl's built-in methods and those found in [List::Util][lu]. After
 writing tableutils, I discovered [Moses][m], a "utility library for functional
 programming in Lua".
@@ -229,7 +229,7 @@ All mistakes are mine. See [version history][c] for release details.
 
 ---
 
-(c) 2013-2016 Peter Aronoff. BSD 3-Clause license; see [LICENSE.md][li] for
+(c) 2013-2017 Peter Aronoff. BSD 3-Clause license; see [LICENSE.md][li] for
 details.
 
 [li]: /LICENSE.md

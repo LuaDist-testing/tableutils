@@ -2,7 +2,7 @@
 --
 -- Peter Aronoff
 -- BSD 3-Clause License
--- 2013-2015
+-- 2013-2017
 local ipairs = ipairs
 
 local foreach = function (func, list)
@@ -169,7 +169,7 @@ local product = function (t)
 end
 
 local version = function ()
-  return "2.1.0"
+  return "2.2.0"
 end
 
 local author = function ()
@@ -177,7 +177,7 @@ local author = function ()
 end
 
 local url = function ()
-  return "https://bitbucket.org/telemachus/tableutils"
+  return "https://github.com/telemachus/tableutils"
 end
 
 local license = function ()

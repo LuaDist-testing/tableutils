@@ -26,16 +26,23 @@
   should not track the rockspec variant. It has nothing to do with the code
   itself, which should be separate.
 
-Would you rather view the [documentation][d]?
-
 ## *2.1.0-1* (July 21, 2016)
 
 + Update to test against Lua 5.3.3
 
+## *2.2.0-1* (February 11, 2017)
+
++ Update to test against Lua 5.3.4
++ The repo is now housed on [Github](https://github.com/telemachus/tapered)
++ CI is now provided by [Travis.ci](https://travis-ci.org/telemachus/tapered)
+
+Would you rather view the [documentation][d]?
+
 [d]: /README.md
+
 ---
 
-(c) 2013-2016 Peter Aronoff. BSD 3-Clause license; see [LICENSE.md][l] for
+(c) 2013-2017 Peter Aronoff. BSD 3-Clause license; see [LICENSE.md][l] for
 details.
 
 [l]: /LICENSE.md
